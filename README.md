@@ -2,15 +2,15 @@
 EN:
 Laboratory work completed during the third semester.
 
-LAB 1
+# LAB 1
 1. (8): expand the function arcsin(x) in a Taylor series, and also cover it with Unit Tests.
  
-LAB 2
+# LAB 2
 1. (8): find the row number of the given matrix, which contains the longest series (sequence of identical elements).
 2. (18): count the number of columns of the given matrix, which are composed of pairwise distinct numbers.
 3. (28): determine whether a real matrix of size mxn is orthonormal, i.e. one in which the scalar product of each pair of distinct strings is 0, and the scalar product of each string with itself is 1. Print the appropriate message on the screen.
 
-LAB 3
+# LAB 3
 1. (8): remove from the text all words of a given length that begin with a consonant.
 
 
