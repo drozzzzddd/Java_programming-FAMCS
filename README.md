@@ -1,5 +1,3 @@
-# Java_programming-FAMCS
-Laboratory work completed during the third semester.
 
 # LAB 1
 1. (8): expand the function arcsin(x) in a Taylor series, and also cover it with Unit Tests.
