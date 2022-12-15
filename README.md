@@ -1,5 +1,4 @@
 # Java_programming-FAMCS
-EN:
 Laboratory work completed during the third semester.
 
 # LAB 1
