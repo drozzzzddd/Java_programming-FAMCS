@@ -1,0 +1,111 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.text.NumberFormatter;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+
+
+public class SimpleGUI extends JFrame {
+
+    private JButton button = new JButton("Узнать");
+    private JTextField input1 = new JTextField("");
+    private JTextField input2 = new JTextField("");
+    private JTextField input3 = new JTextField("");
+
+    private JPanel contents = new JPanel();
+    public SimpleGUI() {
+        super("Знак зодиака");
+        this.setBounds(200, 200, 250, 200);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        Container container = this.getContentPane();
+        container.setLayout(new GridLayout(4, 1, 11, 10));
+        input1.setColumns(16);
+        //container.add(label);
+        container.add(new JLabel("День :"));
+        container.add(input1);
+        container.add(new JLabel("Месяц :"));
+        container.add(input2);
+        container.add(new JLabel("Год:"));
+        container.add(input3);
+
+        NumberFormat number = new DecimalFormat();
+        JFormattedTextField numberField = new JFormattedTextField(new NumberFormatter(number));
+        numberField.setColumns(10);
+
+        ButtonGroup group = new ButtonGroup();
+        button.addActionListener(new ButtonEventListener());
+        container.add(button);
+    }
+
+    class ButtonEventListener implements ActionListener {
+        public void actionPerformed(ActionEvent e) {
+
+            int d = Integer.parseInt(input1.getText());
+            int m = Integer.parseInt(input2.getText());
+            int y = Integer.parseInt(input3.getText());
+
+            String message = "";
+            if((m == 1) && (d <= 20) || (m == 12) && (d >= 22)) {
+                String sign1 = ": КОЗЕРОГ";
+                message += "Знак зодиака" + sign1 + "\n";
+                JOptionPane.showMessageDialog(null, message, "output", JOptionPane.PLAIN_MESSAGE);
+            }
+            else if((m== 1) || (m == 2) && (d <= 19)) {
+                String sign2 = ": ВОДОЛЕЙ";
+                message += "Знак зодиака" + sign2 + "\n";
+                JOptionPane.showMessageDialog(null, message, "output", JOptionPane.PLAIN_MESSAGE);
+            }
+            else if((m == 2) || (m == 3) && (d <= 20)) {
+                String sign3 = ": РЫБЫ";
+                message += "Знак зодиака" + sign3 + "\n";
+                JOptionPane.showMessageDialog(null, message, "output", JOptionPane.PLAIN_MESSAGE);
+            }
+            else if((m == 3) || (m == 4) && (d <= 19)) {
+                String sign4 = ": ОВЕН";
+                message += "Знак зодиака" + sign4 + "\n";
+                JOptionPane.showMessageDialog(null, message, "output", JOptionPane.PLAIN_MESSAGE);
+            }
+            else if((m == 4) || (m == 5) && (d <= 21)) {
+                String sign5 = ": ТЕЛЕЦ";
+                message += "Знак зодиака" + sign5 + "\n";
+                JOptionPane.showMessageDialog(null, message, "output", JOptionPane.PLAIN_MESSAGE);
+            }
+            else if((m == 5) || (m == 6) && (d <= 21)) {
+                String sign6 = ": БЛИЗНЕЦЫ";
+                message += "Знак зодиака" + sign6 + "\n";
+                JOptionPane.showMessageDialog(null, message, "output", JOptionPane.PLAIN_MESSAGE);
+            }
+            else if((m == 6) || (m == 7) && (d <= 23)) {
+                String sign7 = ": РАК";
+                message += "Знак зодиака" + sign7 + "\n";
+                JOptionPane.showMessageDialog(null, message, "output", JOptionPane.PLAIN_MESSAGE);            }
+            else if((m == 7) || (m == 8) && (d <= 23)) {
+                String sign8 = ": ЛЕВ";
+                message += "Знак зодиака" + sign8 + "\n";
+                JOptionPane.showMessageDialog(null, message, "output", JOptionPane.PLAIN_MESSAGE);
+            }
+            else if((m == 8) || (m == 9) && (d <= 23)) {
+                String sign9 = ": ДЕВА";
+                message += "Знак зодиака" + sign9 + "\n";
+                JOptionPane.showMessageDialog(null, message, "output", JOptionPane.PLAIN_MESSAGE);
+            }
+            else if((m == 9) || (m == 10) && (d <= 23)) {
+                String sign10 = ": ВЕСЫ";
+                message += "Знак зодиака" + sign10 + "\n";
+                JOptionPane.showMessageDialog(null, message, "output", JOptionPane.PLAIN_MESSAGE);
+            }
+            else if((m == 10) || (m == 11) && (d <= 22)) {
+                String sign11 = ": СКОРПИОН";
+                message += "Знак зодиака" + sign11 + "\n";
+                JOptionPane.showMessageDialog(null, message, "output", JOptionPane.PLAIN_MESSAGE);
+            }
+            else if(m == 12) {
+                String sign12 = ": СТРЕЛЕЦ";
+                message += "Знак зодиака" + sign12 + "\n";
+                JOptionPane.showMessageDialog(null, message, "output", JOptionPane.PLAIN_MESSAGE);
+            }
+        }
+            }
+        }
