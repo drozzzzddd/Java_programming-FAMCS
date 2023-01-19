@@ -1,6 +1,6 @@
 
-# LAB 1
-1. (8): expand the function arcsin(x) in a Taylor series, and also cover it with Unit Tests.
+# ЛАБОРАТОРНЫЕ РАБОТЫ
+[Лабораторная работа 1. Разложить функцию в ряд Тейлора и покрыть задачу Unit Test-ами](https://github.com/drozzzzddd/Java_programming-FAMCS/tree/main/lab%201/task%201_8)
  
 # LAB 2
 1. (8): find the row number of the given matrix, which contains the longest series (sequence of identical elements).
