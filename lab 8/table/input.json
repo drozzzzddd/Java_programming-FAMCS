@@ -1,0 +1,29 @@
+[ {
+  "first_name" : "Житкевич",
+  "second_name" : "Роман",
+  "age" :  34
+
+}, {
+  "first_name" : "Машей",
+  "second_name" : "Никита",
+  "age" :  18
+}, {
+  "first_name" : "Кудрявцева",
+  "second_name" : "Дарья",
+  "age" :  16
+}, {
+  "first_name" : "Борис",
+  "second_name" : "Иван",
+  "age" :  17
+}, {
+  "first_name" : "Исаков",
+  "second_name" : "Валентин",
+  "age" :  89
+}
+, {
+  "first_name" : "Бовкало",
+  "second_name" : "Максим",
+  "age" :  71
+}
+]
+
