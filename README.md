@@ -1,6 +1,11 @@
 
 # ЛАБОРАТОРНЫЕ РАБОТЫ
-[Лабораторная работа 1. Разложить функцию в ряд Тейлора и покрыть задачу Unit Test-ами](https://github.com/drozzzzddd/Java_programming-FAMCS/tree/main/lab%201/task%201_8)
+[Лабораторная работа 1. Разложить функцию arcsin(x) в ряд Тейлора и покрыть задачу Unit Test-ами](https://github.com/drozzzzddd/Java_programming-FAMCS/tree/main/lab%201/task%201_8)
+
+[Лабораторная работа 2. Матрицы (в трех задачах)].
+*1.8.	Найти номер строки заданной матрицы, в которой находится самая длинная серия (последовательность одинаковых элементов) (https://github.com/drozzzzddd/Java_programming-FAMCS/tree/main/lab%202/task%202_18).
+1.18.	Подсчитать количество столбцов заданной матрицы, которые составлены из попарно различных чисел.
+1.28.	Определить, явля¬ется ли действительная матрица размера mxn  ортонормированной, т.е. такой, в которой скалярное  произведение каждой пары различных строк равно 0,  а ска-лярное произведение каждой строки на себя равно 1. Вывести на экран соответствующее сообщение.(https://github.com/drozzzzddd/Java_programming-FAMCS/tree/main/lab%202/task%202_28)](https://github.com/drozzzzddd/Java_programming-FAMCS/tree/main/lab%201/task%201_8)
  
 # LAB 2
 1. (8): find the row number of the given matrix, which contains the longest series (sequence of identical elements).
