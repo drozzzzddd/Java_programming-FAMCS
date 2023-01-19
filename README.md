@@ -28,4 +28,4 @@
 - [Реализовать графический интерфейс (в данном конкретном случае Swing). Реализовать схему, которая определяет знак зодиака по дню и месяцу.](https://github.com/drozzzzddd/Java_programming-FAMCS/tree/main/lab%207/Zodiac%20signs)
 
 ***Лабораторная работа 8. Таблица (TableView)***
-- [Реализовать таблицу, в которой ученики сортируются по фамилии/среднему баллу в учебе](https://github.com/drozzzzddd/Java_programming-FAMCS/tree/main/lab%208/table)
+- [Реализовать таблицу, в которой ученики сортируются по фамилии/среднему баллу в учебе.](https://github.com/drozzzzddd/Java_programming-FAMCS/tree/main/lab%208/table)
